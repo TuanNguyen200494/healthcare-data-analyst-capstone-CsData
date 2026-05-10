@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+*.ipynb
+
+# Environment
+.env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Data files - tránh commit dataset lớn hoặc dữ liệu nhạy cảm
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Nhưng giữ folder
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

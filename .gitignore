@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+.healthvenv/
 .venv/
 venv/
 env/

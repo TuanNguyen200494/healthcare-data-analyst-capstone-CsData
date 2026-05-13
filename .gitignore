@@ -35,3 +35,7 @@ outputs/*
 # OS
 .DS_Store
 Thumbs.db
+
+# Google key
+.secrets/
+*.json

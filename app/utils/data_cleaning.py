@@ -72,7 +72,7 @@ q3 = df_health_clean["Billing Amount"].quantile(0.75)
 df_health_clean["Billing Group"] = df_health_clean["Billing Amount"].apply(billing_class)
 
 ##Lưu kết df_health_clean tại data/processed
-df_health_clean.to_csv("/Users/tuananhnguyen/Desktop/AI Bootcamp/data-analyst-healthcare/data/processed/Healthcare_Processed_Clean.csv")
+df_health_clean.to_csv("/Users/tuananhnguyen/Desktop/AI Bootcamp/data-analyst-healthcare/data/processed/Healthcare_Processed_Clean.csv", index=False)
 
 df_health_normalized = df_health_clean
-df_health_normalized.to_csv("/Users/tuananhnguyen/Desktop/AI Bootcamp/data-analyst-healthcare/outputs/Healcare_Normalized.csv")
+df_health_normalized.to_csv("/Users/tuananhnguyen/Desktop/AI Bootcamp/data-analyst-healthcare/outputs/Healcare_Normalized.csv", index=False)

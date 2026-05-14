@@ -5,6 +5,10 @@ from pathlib import Path
 
 from gs_service import gs_connector
 
+######-------------------------------------------########
+##KHÔNG CẦN CHẠY LẠI FILE NÀY KHI LÊN STREAMLIT##
+######-------------------------------------------########
+
 def read_config(config_path):
     if not os.path.exists(config_path):
         raise FileNotFoundError("Cannot find config file:" + str(config_path))
